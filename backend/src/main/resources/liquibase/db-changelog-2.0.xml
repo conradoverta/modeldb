@@ -229,6 +229,10 @@
         </rollback>
     </changeSet>
 
+    <changeSet id="db_version_2.10" author="cory">
+        <tagDatabase tag="db_version_2.10"/>
+    </changeSet>
+
     <changeSet id="add-workspace-id-on-repository" author="cory">
         <preConditions onFail="MARK_RAN">
             <not>
@@ -243,7 +247,7 @@
         </rollback>
     </changeSet>
 
-    <changeSet id="db_version_2.9" author="cory">
-        <tagDatabase tag="db_version_2.9"/>
+    <changeSet id="db_version_2.11" author="cory">
+        <tagDatabase tag="db_version_2.11"/>
     </changeSet>
 </databaseChangeLog>
